@@ -111,7 +111,7 @@ class BaseModel(ABC):
 
     def get_image_paths(self):
         """ Return image paths that are used to load current data"""
-        return self.image_paths
+        return self.image_paths_A
 
     def update_learning_rate(self):
         """Update learning rates for all the networks; called at the end of every epoch"""
